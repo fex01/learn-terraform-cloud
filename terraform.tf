@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "miske-learn"
+  # cloud {
+  #   organization = "miske-learn"
 
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
+  #   workspaces {
+  #     name = "learn-terraform-cloud"
+  #   }
+  # }
 
   required_providers {
     aws = {
